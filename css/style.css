@@ -1,0 +1,29 @@
+h1 {
+ color: orange;
+ font-family: 'Righteous', cursive;
+ background: black;
+ text-align: center;
+}
+
+#cTemp {
+ display: inline;
+}
+
+#fTemp {
+ display: inline;
+}
+
+#celcius {
+ border: solid 1px orange;
+ padding-left: 5%;
+}
+
+#fahrenheit {
+ border: solid 1px orange;
+ margin-top: 2%;
+ padding-left: 5%;
+}
+
+#clear {
+ margin-top: 2%;
+}
