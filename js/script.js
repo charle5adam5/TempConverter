@@ -9,8 +9,7 @@ function fahrenheitTemp() {
     return (cInput.value - 32) / 1.8;
 };
 
- cSubmit.addEventListener("click", function(e) {
- e.preventDefault();
+ cSubmit.addEventListener("click", function() {
   cTemp.innerHTML = fahrenheitTemp();
  cInput.value = "";
 });
@@ -27,8 +26,7 @@ function celciusTemp() {
     return (fInput.value * 1.8) + 32;
 };
 
-fSubmit.addEventListener("click", function(e) {
- e.preventDefault();
+fSubmit.addEventListener("click", function() {
   fTemp.innerHTML = celciusTemp();
  fInput.value = "";
 });
