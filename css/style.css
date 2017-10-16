@@ -13,6 +13,13 @@ h1 {
  display: inline;
 }
 
+#cCalc:hover {
+  cursor: pointer;
+}
+#fCalc:hover {
+  cursor: pointer;
+}
+
 #celcius {
  border: solid 1px orange;
  padding-left: 5%;
