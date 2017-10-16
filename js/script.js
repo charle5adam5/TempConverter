@@ -1,9 +1,9 @@
   /////CELCIUS/////
 
-const celcius = document.getElementById("celcius");
-const cInput = document.getElementById("cInput");
-const cSubmit = document.getElementById("cCalc");
-const cTemp = document.getElementById("cTemp");
+var celcius = document.getElementById("celcius");
+var cInput = document.getElementById("cInput");
+var cSubmit = document.getElementById("cCalc");
+var cTemp = document.getElementById("cTemp");
 
 function fahrenheitTemp() {
     return (cInput.value - 32) / 1.8;
@@ -17,10 +17,10 @@ function fahrenheitTemp() {
 
 /////FAHRENHEIT/////
 
-const fahrenheit = document.getElementById("fahrenheit");
-const fInput = document.getElementById("fInput");
-const fSubmit = document.getElementById("fCalc");
-const fTemp = document.getElementById("fTemp");
+var fahrenheit = document.getElementById("fahrenheit");
+var fInput = document.getElementById("fInput");
+var fSubmit = document.getElementById("fCalc");
+var fTemp = document.getElementById("fTemp");
 
 
 function celciusTemp() {
@@ -36,7 +36,7 @@ fSubmit.addEventListener("click", function(e) {
 
 /////CLEAR/////
 
-const clear = document.getElementById("clear");
+var clear = document.getElementById("clear");
 
 clear.addEventListener("click", function() {
  fTemp.innerHTML = "";
